@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Grade Calculator</string>
-    <string name="grade_1">Nota 1</string>
-    <string name="nota_2">Nota 2</string>
-    <string name="faltas">Faltas</string>
-    <string name="calculate_button">Calcular</string>
-    <string name="student_status">Status de aprovação do aluno.</string>
-    <string name="student_success">Média: %.1f\nSTATUS: Aprovado\nFaltas: %d</string>
-    <string name="student_fail">Média: %.1f\nSTATUS: Reprovado\nFaltas: %d</string>
+    <string name="grade_1">Grade 1</string>
+    <string name="nota_2">Grade 2</string>
+    <string name="faltas">Days missed</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="student_status">Student approval status.</string>
+    <string name="student_success">Average: %.1f\nSTATUS: Approved\nDays missed: %d</string>
+    <string name="student_fail">Average: %.1f\nSTATUS: Reproved\nDays missed: %d</string>
 </resources>

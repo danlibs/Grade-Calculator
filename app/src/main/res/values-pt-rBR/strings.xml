@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Calculadora de notas</string>
+        <string name="grade_1">Nota 1</string>
+        <string name="nota_2">Nota 2</string>
+        <string name="faltas">Faltas</string>
+        <string name="calculate_button">Calcular</string>
+        <string name="student_status">Status de aprovação do aluno.</string>
+        <string name="student_success">Média: %.1f\nSTATUS: Aprovado\nFaltas: %d</string>
+        <string name="student_fail">Média: %.1f\nSTATUS: Reprovado\nFaltas: %d</string>
+</resources>
