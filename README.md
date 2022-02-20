@@ -4,3 +4,7 @@ A simple grade calculator made for study only. The user can put two grades and t
 Grades is available in Portuguese and English.
 
 ## Screenshots
+ - Lightmode:
+<img src="https://raw.githubusercontent.com/danlibs/Grade-Calculator/main/Screenshots/Screenshot_20220220_161634.png" alt="drawing" width="200"/>
+ - Darkmode:
+<img src="https://raw.githubusercontent.com/danlibs/Grade-Calculator/main/Screenshots/Screenshot_20220220_161724.png" alt="drawing" width="200"/>
