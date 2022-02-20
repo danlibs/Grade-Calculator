@@ -4,6 +4,7 @@ import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
+import androidx.appcompat.app.AppCompatDelegate
 import com.danlibs.gradecalculator.databinding.ActivityMainBinding
 import com.google.android.material.snackbar.Snackbar
 import java.lang.RuntimeException
@@ -16,6 +17,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.darkModeSwitch.setOnCheckedChangeListener { _, isChecked ->
+            if (isChecked)
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+            else
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+        }
 
         binding.calculateButton.setOnClickListener {
             var grade1Double = 0.0

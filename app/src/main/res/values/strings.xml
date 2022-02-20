@@ -7,4 +7,5 @@
     <string name="student_status">Student approval status.</string>
     <string name="student_success">Average: %.1f\nSTATUS: Approved\nDays missed: %d</string>
     <string name="student_fail">Average: %.1f\nSTATUS: Reproved\nDays missed: %d</string>
+    <string name="error_message">Unexpected error</string>
 </resources>

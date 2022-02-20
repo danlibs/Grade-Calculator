@@ -8,4 +8,6 @@
         <string name="student_status">Status de aprovação do aluno.</string>
         <string name="student_success">Média: %.1f\nSTATUS: Aprovado\nFaltas: %d</string>
         <string name="student_fail">Média: %.1f\nSTATUS: Reprovado\nFaltas: %d</string>
+        <string name="error_message">Erro inesperado</string>
+
 </resources>
